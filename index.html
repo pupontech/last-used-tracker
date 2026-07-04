@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>last-used-tracker</title>
+<style>
+  body { font-family: system-ui, sans-serif; padding: 24px; background: #0b0f14; color: #e6edf3; }
+  h1 { font-weight: 600; }
+  pre { background: #111820; padding: 12px; border-radius: 8px; overflow: auto; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+  .muted { color: #8b949e; }
+  a { color: #58a6ff; }
+</style>
+</head>
+<body>
+<h1>last-used-tracker</h1>
+<p class="muted">Windows usage-based uninstall review — no-Python PowerShell script + local report generator.</p>
+
+<h2>Files</h2>
+<ul>
+  <li><code>last_used_tracker.ps1</code> — scanner</li>
+  <li><code>last_used_tracker.bat</code> — optional wrapper</li>
+  <li><code>README.md</code> — short usage notes</li>
+  <li><code>program_usage_report.txt</code> — generated report</li>
+</ul>
+
+<h2>Run</h2>
+<pre><code>powershell -NoProfile -ExecutionPolicy Bypass -File last_used_tracker.ps1</code></pre>
+
+<h2>Publish to GitHub</h2>
+<ol>
+  <li>Create repo: <a href="https://github.com/new" target="_blank">github.com/new</a></li>
+  <li>Name: <code>last-used-tracker</code></li>
+  <li>Upload files from <code>C:\Users\Ay\last-used-tracker-publish</code></li>
+</ol>
+<p class="muted">If you want, after you publish, say the repo URL and I can give you a simple landing readme or release description.</p>
+</body>
+</html>
